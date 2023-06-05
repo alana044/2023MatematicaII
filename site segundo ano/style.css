@@ -1,0 +1,32 @@
+/* Estilização da tabela */
+.alunos-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Estilização das células */
+.alunos-table td,
+.alunos-table th {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+/* Estilização do cabeçalho */
+.alunos-table th {
+  background-color: #f2f2f2;
+}
+
+/* Estilização das imagens */
+.alunos-table img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Estilização dos nomes */
+.alunos-table td span {
+  font-weight: bold;
+}
